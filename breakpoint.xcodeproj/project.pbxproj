@@ -56,6 +56,12 @@
 		BEB1345F1F815C72004921DF /* breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				BEB134791F815D1C004921DF /* Utilities */,
+				BEB134781F815D10004921DF /* Services */,
+				BEB134771F815D02004921DF /* Extensions */,
+				BEB134761F815CEF004921DF /* Model */,
+				BEB134751F815CE9004921DF /* View */,
+				BEB134741F815CE3004921DF /* Controller */,
 				BEB134601F815C72004921DF /* AppDelegate.swift */,
 				BEB134621F815C72004921DF /* FirstViewController.swift */,
 				BEB134641F815C72004921DF /* SecondViewController.swift */,
@@ -65,6 +71,48 @@
 				BEB1346E1F815C72004921DF /* Info.plist */,
 			);
 			path = breakpoint;
+			sourceTree = "<group>";
+		};
+		BEB134741F815CE3004921DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEB134751F815CE9004921DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEB134761F815CEF004921DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB134771F815D02004921DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEB134781F815D10004921DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEB134791F815D1C004921DF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
