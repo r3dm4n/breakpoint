@@ -11,6 +11,8 @@
 		BE4B3E2B1F8240EB00F456EB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */; };
 		BE4B3E2D1F8240F500F456EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2C1F8240F500F456EB /* LoginVC.swift */; };
 		BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */; };
+		BE4B3E311F8245C600F456EB /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E301F8245C600F456EB /* ShadowView.swift */; };
+		BE4B3E361F824DD600F456EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE4B3E351F824DD600F456EB /* GoogleService-Info.plist */; };
 		BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74B8BB1F815F3100CAF28B /* DataService.swift */; };
 		BEB134611F815C72004921DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134601F815C72004921DF /* AppDelegate.swift */; };
 		BEB134631F815C72004921DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134621F815C72004921DF /* FirstViewController.swift */; };
@@ -27,7 +29,8 @@
 		BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		BE4B3E2C1F8240F500F456EB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
-		BE74B8BA1F815E2800CAF28B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE4B3E301F8245C600F456EB /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		BE4B3E351F824DD600F456EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BE74B8BB1F815F3100CAF28B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BEB1345D1F815C72004921DF /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB134601F815C72004921DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		BEB1345F1F815C72004921DF /* breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B3E351F824DD600F456EB /* GoogleService-Info.plist */,
 				BEB134791F815D1C004921DF /* Utilities */,
 				BEB134781F815D10004921DF /* Services */,
 				BEB134771F815D02004921DF /* Extensions */,
@@ -100,7 +104,6 @@
 				BEB134691F815C72004921DF /* Assets.xcassets */,
 				BEB1346B1F815C72004921DF /* LaunchScreen.storyboard */,
 				BEB1346E1F815C72004921DF /* Info.plist */,
-				BE74B8BA1F815E2800CAF28B /* GoogleService-Info.plist */,
 			);
 			path = breakpoint;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */,
+				BE4B3E301F8245C600F456EB /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB1346D1F815C72004921DF /* LaunchScreen.storyboard in Resources */,
+				BE4B3E361F824DD600F456EB /* GoogleService-Info.plist in Resources */,
 				BEB1346A1F815C72004921DF /* Assets.xcassets in Resources */,
 				BEB134681F815C72004921DF /* Main.storyboard in Resources */,
 			);
@@ -292,6 +297,7 @@
 				BEB134651F815C72004921DF /* SecondViewController.swift in Sources */,
 				BE4B3E2D1F8240F500F456EB /* LoginVC.swift in Sources */,
 				BEB134611F815C72004921DF /* AppDelegate.swift in Sources */,
+				BE4B3E311F8245C600F456EB /* ShadowView.swift in Sources */,
 				BEB134631F815C72004921DF /* FirstViewController.swift in Sources */,
 				BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */,
 				BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */,
