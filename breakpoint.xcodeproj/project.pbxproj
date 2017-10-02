@@ -16,8 +16,8 @@
 		BE4B3E381F824F2500F456EB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E371F824F2500F456EB /* AuthService.swift */; };
 		BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74B8BB1F815F3100CAF28B /* DataService.swift */; };
 		BEB134611F815C72004921DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134601F815C72004921DF /* AppDelegate.swift */; };
-		BEB134631F815C72004921DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134621F815C72004921DF /* FirstViewController.swift */; };
-		BEB134651F815C72004921DF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134641F815C72004921DF /* SecondViewController.swift */; };
+		BEB134631F815C72004921DF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134621F815C72004921DF /* FeedVC.swift */; };
+		BEB134651F815C72004921DF /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134641F815C72004921DF /* GroupsVC.swift */; };
 		BEB134681F815C72004921DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB134661F815C72004921DF /* Main.storyboard */; };
 		BEB1346A1F815C72004921DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB134691F815C72004921DF /* Assets.xcassets */; };
 		BEB1346D1F815C72004921DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB1346B1F815C72004921DF /* LaunchScreen.storyboard */; };
@@ -36,8 +36,8 @@
 		BE74B8BB1F815F3100CAF28B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BEB1345D1F815C72004921DF /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB134601F815C72004921DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEB134621F815C72004921DF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BEB134641F815C72004921DF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BEB134621F815C72004921DF /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		BEB134641F815C72004921DF /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		BEB134671F815C72004921DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB134691F815C72004921DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB1346C1F815C72004921DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 		BEB134741F815CE3004921DF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BEB134621F815C72004921DF /* FirstViewController.swift */,
-				BEB134641F815C72004921DF /* SecondViewController.swift */,
+				BEB134621F815C72004921DF /* FeedVC.swift */,
+				BEB134641F815C72004921DF /* GroupsVC.swift */,
 				BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */,
 				BE4B3E2C1F8240F500F456EB /* LoginVC.swift */,
 			);
@@ -297,12 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4B3E2B1F8240EB00F456EB /* AuthVC.swift in Sources */,
-				BEB134651F815C72004921DF /* SecondViewController.swift in Sources */,
+				BEB134651F815C72004921DF /* GroupsVC.swift in Sources */,
 				BE4B3E2D1F8240F500F456EB /* LoginVC.swift in Sources */,
 				BE4B3E381F824F2500F456EB /* AuthService.swift in Sources */,
 				BEB134611F815C72004921DF /* AppDelegate.swift in Sources */,
 				BE4B3E311F8245C600F456EB /* ShadowView.swift in Sources */,
-				BEB134631F815C72004921DF /* FirstViewController.swift in Sources */,
+				BEB134631F815C72004921DF /* FeedVC.swift in Sources */,
 				BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */,
 				BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */,
 			);
