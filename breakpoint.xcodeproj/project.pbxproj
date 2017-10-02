@@ -13,6 +13,7 @@
 		BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */; };
 		BE4B3E311F8245C600F456EB /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E301F8245C600F456EB /* ShadowView.swift */; };
 		BE4B3E361F824DD600F456EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE4B3E351F824DD600F456EB /* GoogleService-Info.plist */; };
+		BE4B3E381F824F2500F456EB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E371F824F2500F456EB /* AuthService.swift */; };
 		BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74B8BB1F815F3100CAF28B /* DataService.swift */; };
 		BEB134611F815C72004921DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134601F815C72004921DF /* AppDelegate.swift */; };
 		BEB134631F815C72004921DF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB134621F815C72004921DF /* FirstViewController.swift */; };
@@ -31,6 +32,7 @@
 		BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		BE4B3E301F8245C600F456EB /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		BE4B3E351F824DD600F456EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE4B3E371F824F2500F456EB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		BE74B8BB1F815F3100CAF28B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BEB1345D1F815C72004921DF /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB134601F815C72004921DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				BE74B8BB1F815F3100CAF28B /* DataService.swift */,
+				BE4B3E371F824F2500F456EB /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				BE4B3E2B1F8240EB00F456EB /* AuthVC.swift in Sources */,
 				BEB134651F815C72004921DF /* SecondViewController.swift in Sources */,
 				BE4B3E2D1F8240F500F456EB /* LoginVC.swift in Sources */,
+				BE4B3E381F824F2500F456EB /* AuthService.swift in Sources */,
 				BEB134611F815C72004921DF /* AppDelegate.swift in Sources */,
 				BE4B3E311F8245C600F456EB /* ShadowView.swift in Sources */,
 				BEB134631F815C72004921DF /* FirstViewController.swift in Sources */,
