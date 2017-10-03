@@ -87,7 +87,7 @@
         <!--Me-->
         <scene sceneID="SWF-eT-NV6">
             <objects>
-                <viewController id="1qc-2f-Dkf" customClass="MeVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MeVC" id="1qc-2f-Dkf" customClass="MeVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NVV-2l-MfV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,6 +179,12 @@
                         <viewLayoutGuide key="safeArea" id="iNJ-wX-Aob"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Me" image="me-tabIcon" selectedImage="me-tabIcon" id="cJ9-OQ-cWB"/>
+                    <connections>
+                        <outlet property="emailLbl" destination="fQ4-0c-3Wj" id="fy0-os-enQ"/>
+                        <outlet property="profileImage" destination="vHv-iU-9c5" id="dcf-hz-gkG"/>
+                        <outlet property="signOutBtnPressed" destination="Wyp-6I-pnl" id="xR8-q1-Eia"/>
+                        <outlet property="tableView" destination="BjI-g4-B3x" id="jR6-DY-bAL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQd-Kc-R9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

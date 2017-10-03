@@ -10,7 +10,16 @@ import UIKit
 
 class MeVC: UIViewController {
     
+    //Outlets
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var emailLbl: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBOutlet weak var signOutBtnPressed: UIButton!
 }
