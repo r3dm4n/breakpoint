@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -62,7 +63,45 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W9k-rU-aO3" id="2K0-OY-9Ke">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="1fm-vQ-SP0">
+                                                    <rect key="frame" x="18" y="18" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="IM2-5J-seJ"/>
+                                                        <constraint firstAttribute="width" constant="50" id="xs8-hG-czr"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="AkV-qi-nsj">
+                                                    <rect key="frame" x="78" y="18" width="279" height="63.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OrN-rn-5Dc">
+                                                            <rect key="frame" x="0.0" y="0.0" width="279" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20" id="Ah4-Kq-IcZ"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="MPE-c6-lXY">
+                                                            <rect key="frame" x="0.0" y="25" width="279" height="38.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="13"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="AkV-qi-nsj" secondAttribute="bottom" constant="10" id="GVW-Cz-66Q"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AkV-qi-nsj" secondAttribute="trailing" constant="10" id="XPY-4U-UqI"/>
+                                                <constraint firstItem="AkV-qi-nsj" firstAttribute="leading" secondItem="1fm-vQ-SP0" secondAttribute="trailing" constant="10" id="aWV-50-cjM"/>
+                                                <constraint firstItem="AkV-qi-nsj" firstAttribute="top" secondItem="2K0-OY-9Ke" secondAttribute="topMargin" constant="10" id="eiY-8x-bzv"/>
+                                                <constraint firstItem="1fm-vQ-SP0" firstAttribute="leading" secondItem="2K0-OY-9Ke" secondAttribute="leadingMargin" constant="10" id="kOd-sg-MsH"/>
+                                                <constraint firstItem="1fm-vQ-SP0" firstAttribute="top" secondItem="2K0-OY-9Ke" secondAttribute="topMargin" constant="10" id="v7G-an-d0M"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.16250613329999999" green="0.16826760769999999" blue="0.20192942019999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
