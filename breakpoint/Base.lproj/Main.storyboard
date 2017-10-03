@@ -508,7 +508,7 @@
                                     <constraint firstItem="g7s-DS-7iF" firstAttribute="leading" secondItem="mG9-9h-9v1" secondAttribute="leading" constant="20" id="dCe-bk-Jb9"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uCY-lw-Zea">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="uCY-lw-Zea">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="EsY-5B-hkO"/>

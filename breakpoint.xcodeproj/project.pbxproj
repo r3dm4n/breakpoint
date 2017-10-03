@@ -22,6 +22,7 @@
 		BEB134681F815C72004921DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB134661F815C72004921DF /* Main.storyboard */; };
 		BEB1346A1F815C72004921DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB134691F815C72004921DF /* Assets.xcassets */; };
 		BEB1346D1F815C72004921DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB1346B1F815C72004921DF /* LaunchScreen.storyboard */; };
+		BECD45631F839B3500B9665F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD45621F839B3500B9665F /* UIViewExt.swift */; };
 		BED5E7FF1F83831A003262B8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5E7FE1F83831A003262B8 /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		BEB134691F815C72004921DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB1346C1F815C72004921DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB1346E1F815C72004921DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECD45621F839B3500B9665F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		BED5E7FE1F83831A003262B8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 		BEB134771F815D02004921DF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BECD45621F839B3500B9665F /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECD45631F839B3500B9665F /* UIViewExt.swift in Sources */,
 				BED5E7FF1F83831A003262B8 /* MeVC.swift in Sources */,
 				BE4B3E2B1F8240EB00F456EB /* AuthVC.swift in Sources */,
 				BEB134651F815C72004921DF /* GroupsVC.swift in Sources */,
