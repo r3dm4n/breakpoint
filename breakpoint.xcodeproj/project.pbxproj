@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67F5BB84BC21CDFEABD439B9 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF99DFA1BB7AFA4DC103770 /* Pods_breakpoint.framework */; };
+		BE1B327B1F838EA800C73A3B /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B327A1F838EA800C73A3B /* PostVC.swift */; };
 		BE4B3E2B1F8240EB00F456EB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */; };
 		BE4B3E2D1F8240F500F456EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2C1F8240F500F456EB /* LoginVC.swift */; };
 		BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */; };
@@ -28,6 +29,7 @@
 		2AF99DFA1BB7AFA4DC103770 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7687E7E1953C9BBF6D79A288 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		ABA77C92AD316CF67CB19B93 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1B327A1F838EA800C73A3B /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		BE4B3E2C1F8240F500F456EB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BE4B3E2E1F8241C800F456EB /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				BE4B3E2A1F8240EB00F456EB /* AuthVC.swift */,
 				BE4B3E2C1F8240F500F456EB /* LoginVC.swift */,
 				BED5E7FE1F83831A003262B8 /* MeVC.swift */,
+				BE1B327A1F838EA800C73A3B /* PostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				BEB134631F815C72004921DF /* FeedVC.swift in Sources */,
 				BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */,
 				BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */,
+				BE1B327B1F838EA800C73A3B /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
