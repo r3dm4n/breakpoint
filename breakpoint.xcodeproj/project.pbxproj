@@ -23,6 +23,7 @@
 		BEB1346A1F815C72004921DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB134691F815C72004921DF /* Assets.xcassets */; };
 		BEB1346D1F815C72004921DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB1346B1F815C72004921DF /* LaunchScreen.storyboard */; };
 		BEB2178D1F83BFBD0035A53A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2178C1F83BFBD0035A53A /* FeedCell.swift */; };
+		BEB2178F1F83C2500035A53A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2178E1F83C2500035A53A /* Message.swift */; };
 		BECD45631F839B3500B9665F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD45621F839B3500B9665F /* UIViewExt.swift */; };
 		BED5E7FF1F83831A003262B8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5E7FE1F83831A003262B8 /* MeVC.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		BEB1346C1F815C72004921DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB1346E1F815C72004921DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEB2178C1F83BFBD0035A53A /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		BEB2178E1F83C2500035A53A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		BECD45621F839B3500B9665F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		BED5E7FE1F83831A003262B8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 		BEB134761F815CEF004921DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BEB2178E1F83C2500035A53A /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				BE4B3E2F1F8241C800F456EB /* InsetTextField.swift in Sources */,
 				BE74B8BC1F815F3100CAF28B /* DataService.swift in Sources */,
 				BE1B327B1F838EA800C73A3B /* CreatePostVC.swift in Sources */,
+				BEB2178F1F83C2500035A53A /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
