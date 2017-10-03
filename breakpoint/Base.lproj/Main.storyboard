@@ -38,6 +38,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9c-WS-1pw">
                                         <rect key="frame" x="334" y="23" width="21" height="24"/>
                                         <state key="normal" image="compose"/>
+                                        <connections>
+                                            <segue destination="t3i-v8-Rsa" kind="presentation" id="MrN-c9-Tqi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16250613331794739" green="0.16826760768890381" blue="0.20192942023277283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -468,10 +471,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--PostVC-->
+        <!--Create PostVC-->
         <scene sceneID="fHU-Tx-abc">
             <objects>
-                <viewController storyboardIdentifier="PostVC" id="t3i-v8-Rsa" customClass="PostVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostVC" id="t3i-v8-Rsa" customClass="CreatePostVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hyN-JZ-NSO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -491,6 +494,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7s-DS-7iF">
                                         <rect key="frame" x="20" y="24" width="21" height="22"/>
                                         <state key="normal" image="close"/>
+                                        <connections>
+                                            <action selector="closeBtnPressed:" destination="t3i-v8-Rsa" eventType="touchUpInside" id="yT2-0y-uvA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16250613329999999" green="0.16826760769999999" blue="0.20192942019999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -532,6 +538,9 @@
                                 <state key="normal" title=" SEND" image="send">
                                     <color key="titleColor" red="0.30175960063934326" green="0.75007224082946777" blue="0.33430767059326172" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendBtnPressed:" destination="t3i-v8-Rsa" eventType="touchUpInside" id="mjm-fv-2j5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.30418807269999998" green="0.3171490133" blue="0.35518938300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -553,6 +562,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jEg-Hs-IGZ"/>
                     </view>
+                    <connections>
+                        <outlet property="emailLbl" destination="0Qo-Zg-2n8" id="qui-XF-ELy"/>
+                        <outlet property="profileImg" destination="uCY-lw-Zea" id="7jN-g0-tZf"/>
+                        <outlet property="sendBtn" destination="HP8-T4-ViA" id="yUt-UO-KIF"/>
+                        <outlet property="textView" destination="5KP-AF-H2y" id="JnM-yJ-qv9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tt5-oF-F8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
