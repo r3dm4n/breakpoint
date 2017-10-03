@@ -21,5 +21,7 @@ class MeVC: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBOutlet weak var signOutBtnPressed: UIButton!
+    
+    @IBAction func signOutBtnPressed(_ sender: Any) {
+    }
 }

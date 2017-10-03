@@ -108,6 +108,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyp-6I-pnl">
                                         <rect key="frame" x="336" y="24" width="19" height="22"/>
                                         <state key="normal" image="logoutIcon"/>
+                                        <connections>
+                                            <action selector="signOutBtnPressed:" destination="1qc-2f-Dkf" eventType="touchUpInside" id="8Ir-CR-NIa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16250613329999999" green="0.16826760769999999" blue="0.20192942019999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -182,7 +185,6 @@
                     <connections>
                         <outlet property="emailLbl" destination="fQ4-0c-3Wj" id="fy0-os-enQ"/>
                         <outlet property="profileImage" destination="vHv-iU-9c5" id="dcf-hz-gkG"/>
-                        <outlet property="signOutBtnPressed" destination="Wyp-6I-pnl" id="xR8-q1-Eia"/>
                         <outlet property="tableView" destination="BjI-g4-B3x" id="jR6-DY-bAL"/>
                     </connections>
                 </viewController>
